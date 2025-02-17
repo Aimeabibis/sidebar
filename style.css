@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+}
+
+body {
+   color: rgb(27, 203, 165);
+   background-color: rgb(20, 19, 19);
+}
+
+
+.menu {
+    list-style: none;
+    background-color: rgb(27, 203, 165);
+    color: rgba(0, 0, 0, 0.866);
+    position: fixed;
+    top: 0;
+    left: -250px;
+    height: 100vh;
+    width: 15vw;
+    font-size: 2rem;
+    line-height: 40px;
+    display: flex;
+    flex-direction: row;
+    padding-right: 50px;
+}
+
+
+.menu li:hover {
+    color: rgba(255, 255, 255, 0.959);
+    background-color: rgba(0, 0, 0, 0.866);
+}
+
+#togglebtn{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    padding: 10px 15px;
+    color: rgb(27, 203, 165); 
+    background-color: transparent;
+    border: none;
+    font-size: 40px;   
+}
+
+#close{
+    position: relative;
+    right: -110px;
+    top:10PX;
+    padding: 10px 15px;
+    color: rgb(27, 203, 165); 
+    padding-right: 10PX;
+    border: none;
+    padding-left: 10px;
+    float: left;
+    background-color: transparent;
+    font-size: 40px;    
+}
+
+.menu.open{
+    left: 0;
+}
+
+.lorem {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-justify: auto;
+    gap: 60px;
+    padding: 50px;
+}
+
+p {
+    font-size: 1.2rem;
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;  
+    font-size: 2.5rem;  
+}
